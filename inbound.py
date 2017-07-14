@@ -25,7 +25,7 @@ def weather():
 
 	
 	resp = MessagingResponse()
-	resp.message("Here's the weather for {}, with all tempartures in Fahrenheit: \n Minimum:{} \n Maximum:{} \n Day:{} \n Night:{}".format(message_body, minimum, maximum, day, night))
+	resp.message("Here's the weather for {}, with all tempartures in Fahrenheit: \n Minimum:{} \n Maximum: {} \n Day: {} \n Night: {}".format(message_body, minimum, maximum, day, night))
 	return str(resp)
 
 if __name__=="__main__":
